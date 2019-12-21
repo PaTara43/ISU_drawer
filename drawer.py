@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 import rospy
 import turtlesim
-import os
-import rospy
 from turtlesim.srv import Spawn
 from turtlesim.srv import Kill
 
@@ -118,4 +116,4 @@ if __name__ == '__main__':
         spawn_turtle(8, 7)
         draw_4()
 
-    except rospy.ROSInterruptException: passs
+    except rospy.ROSInterruptException: pass
